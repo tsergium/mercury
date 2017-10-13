@@ -9,3 +9,4 @@ $app->get('/', function ($request, $response, $args) {
 $app->get('/{name}', function ($request, $response, $args) {
     echo "Hello, " . $args['name'];
 });
+$app->run();
